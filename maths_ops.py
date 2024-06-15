@@ -6,8 +6,8 @@ def add(*args):
 	return sum
 
 def subtract(*args):
-	diff = 0
-	for each in args:
+	diff = args[0]
+	for each in args[1:]:
 		diff -= each
 	return diff
 
@@ -16,5 +16,3 @@ def multiply(*args):
 	for each in args:
 		product *= each
 	return product
-
-print(multiply(3, 1, 20))
