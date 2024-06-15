@@ -1,4 +1,4 @@
-import maths_ops
+import maths_package.maths_ops as maths_ops
 
 num1 = 5
 num2 = 6
